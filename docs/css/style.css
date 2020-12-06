@@ -1,7 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   line-height: 1.6;
-  background: #ffffff;
+  background: #FFFCF8;
   overflow-x: hidden;
   font-size: 16px; }
   body:before {
@@ -35,7 +35,8 @@ body {
   background-color: rgba(0, 0, 0, 0.05); }
 
 a {
-  color: #E2B85C;
+  color: #585836;
+  font-weight: bold;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease; }
@@ -52,7 +53,7 @@ a {
   color: #ffffff; }
 
 .text-primary {
-  color: #E2B85C !important; }
+  color: #26241E !important; }
 
 a.text-primary {
   color: #585836 !important; }
@@ -142,7 +143,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       .gutter-v2 > .col,
       .gutter-v2 > [class*="col-"] {
         padding-right: 15px;
-        padding-left: 15px; } }
+        padding-left: 15px; }
 
 .gutter-v3 {
   margin-right: -40px;
@@ -445,7 +446,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       display: block; }
       .site-mobile-menu .site-nav-wrap li.active > a {
         color: #585836; }
-    .site-mobile-menu .site-nav-wrap .arrow-collapse {
+    .site-mobile-menu .site-nav-wrap .flaticon-expand-button {
       position: absolute;
       right: 0px;
       top: 0px;
@@ -456,7 +457,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       cursor: pointer;
       border-radius: 50%;
       border: 1px solid #f8f9fa; }
-      .site-mobile-menu .site-nav-wrap .arrow-collapse:before {
+      .site-mobile-menu .site-nav-wrap .flaticon-expand-button:before {
         font-size: 14px;
         z-index: 20;
         font-family: 'Raleway', sans-serif;
@@ -470,7 +471,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         -webkit-transition: .3s all ease;
         -o-transition: .3s all ease;
         transition: .3s all ease; }
-      .site-mobile-menu .site-nav-wrap .arrow-collapse.collapsed:before {
+      .site-mobile-menu .site-nav-wrap .flaticon-expand-button:before .collapsed:before {
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); }

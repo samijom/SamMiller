@@ -25,9 +25,9 @@ $(function(){
 			$('.site-mobile-menu .has-children').each(function(){
 				var $this = $(this);
 
-				$this.prepend('<span class="arrow-collapse collapsed">');
+				$this.prepend('<span class="flaticon-expand-button">');
 
-				$this.find('.arrow-collapse').attr({
+				$this.find('.flaticon-expand-button').attr({
 					'data-toggle' : 'collapse',
 					'data-target' : '#collapseItem' + counter,
 				});
@@ -43,7 +43,7 @@ $(function(){
 
 		}, 1000);
 
-		$('body').on('click', '.arrow-collapse', function(e) {
+		$('body').on('click', '.flaticon-expand-button', function(e) {
 			var $this = $(this);
 			if ( $this.closest('li').find('.collapse').hasClass('show') ) {
 				$this.removeClass('active');
