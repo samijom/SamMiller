@@ -21,7 +21,10 @@ body {
   body.offcanvas-menu:before {
     opacity: 1;
     visibility: visible; }
-
+.logoone {
+  width: 85px;
+  height: 85px;
+}
 .text-black {
   color: #26241E !important; }
 
